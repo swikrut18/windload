@@ -1,0 +1,130 @@
+<html>
+<body bgcolor="yellow">
+
+
+<form action="{% url 'city'%}">
+<p>
+<label>Select city</label>
+	<select name="city">
+		<option>Agra</option>
+		<option>Ahmedabad</option>
+		<option>Ajmer</option>
+		<option>Almora</option>
+		<option>Amritsar</option>
+		<option>Asansol</option>
+		<option>Aurangabad</option>
+		<option>Bahraich</option>
+		<option>Bengaluru</option>
+		<option>Barauni</option>
+		<option>Bareilly</option>
+		<option>Bhatinda</option>
+		<option>Bhilai</option>
+		<option>Bhopal</option>
+		<option>Bhubaneshwar</option>
+		<option>Bhuj</option>
+		<option>Bikaner</option>
+		<option>Bokaro</option>
+		<option>Chandigarth</option>
+		<option>Chennai</option>
+		<option>Coimbatore</option>
+		<option>Cuttak</option>
+		<option>Darbhanga</option>
+		<option>Darjeeling</option>
+		<option>Dehradun</option>
+		<option>Delhi</option>
+		<option>Durgapur</option>
+		<option>Gangtok</option>
+		<option>Guwahati</option>
+		<option>Gaya</option>
+		<option>Gorakhpur</option>
+		<option>Hyderabad</option>
+		<option>Imphal</option>
+		<option>Jabalpur</option>
+		<option>Jaipur</option>
+		<option>Jamshedpur</option>
+		<option>Jhansi</option>
+		<option>Jodhpur</option>
+		<option>Kanpur</option>
+		<option>Kohima</option>
+		<option>Kolkata</option>
+		<option>Kozhikode</option>
+		<option>Kurnool</option>
+		<option>Lakshadweep</option>
+		<option>Lucknow</option>
+		<option>Ludhiana</option>
+		<option>Madurai</option>
+		<option>Manglore</option>
+		<option>Muradabad</option>
+		<option>Mumbai</option>
+		<option>Mysore</option>
+		<option>Nagpur</option>
+		<option>Nainital</option>
+		<option>Nasik</option>
+		<option>Nellore</option>
+		<option>Panjim</option>
+		<option>Patiala</option>
+		<option>Patna</option>
+		<option>Puducherry</option>
+		<option>Port Blair</option>
+		<option>Pune</option>
+		<option>Raipur</option>
+		<option>Rajkot</option>
+		<option>Ranchi</option>
+		<option>Roorkee</option>
+		<option>Rourkela</option>
+		<option>Simla</option>
+		<option>Srinager</option>
+		<option>Surat</option>
+		<option>Tiruchirapalli</option>
+		<option>Trivandrum</option>
+		<option>Udaipur</option>
+		<option>Udaipur</option>
+		<option>Varanasi</option>
+		<option>Vijaywada</option>
+		<option>Visjakhapatnam</option>
+	</select>
+</p>					
+<p>					
+<label>Building life for design in years</label>
+<label class="tip" data-tip="Kindly, refer IS 875:2015 table no. 1"> <span class="q">?</span></label>
+	<select name="building_life_design">
+		<option>50</option>
+		<option>5</option>
+		<option>25</option>
+		<option>100</option>
+	</select>
+</p>					
+<p>
+<label>Terrain category</label>
+	<select name="terrain_category">
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+	</select>
+</p>
+
+<p>
+	<label for="length">Length of the building in meters</label>
+	<input type="text" name="length" maxlength="2">
+</p>					
+				
+<p>
+	<label for="width">Width of the building in meters</label>
+	<input type="text" name="width" maxlength="2">
+</p>					
+			
+<p>
+	<label for="height">Height of the building in meters</label>
+	<input type="text" name="height" maxlength="2">
+</p>					
+			
+
+
+<input type="submit">
+</form>	
+Wind load is:{{results}}
+
+</p>
+</body>
+</html>
