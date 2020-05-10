@@ -3,7 +3,7 @@ from django.http import HttpResponse
 import pandas as pd
 import numpy as np
 
-import django_pandas.io as dpd
+
 # Create your views here.
 
 def home(request):
